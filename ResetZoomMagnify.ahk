@@ -1,6 +1,7 @@
 ;ResetZoomMagnify
 ;Windows 10
 
+;There is a bug where the lock screen is enlarged.
 reset_zoom()
 {
     Process, Exist, Magnify.exe
