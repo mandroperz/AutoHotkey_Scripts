@@ -17,6 +17,7 @@ reset_zoom()
     RegWrite, REG_DWORD, HKEY_CURRENT_USER\SOFTWARE\Microsoft\ScreenMagnifier , Magnification, 100
 }
 
+;slow
 reset_zoom2()
 {
     Process, Exist, Magnify.exe
