@@ -41,7 +41,7 @@ reset_zoom2()
     }
 }
 
-^q::reset_zoom()
+^+r::reset_zoom()
 
 ^r::reset_zoom2()
 
