@@ -43,6 +43,7 @@ reset_zoom2()
 
 ^+r::reset_zoom()
 
+;ctrl + r
 ^r::reset_zoom2()
 
 
