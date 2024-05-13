@@ -44,7 +44,7 @@ reset_zoom2()
 ; ctrl + shift + r
 ^+r::reset_zoom()
 
-;ctrl + r
+; ctrl + r
 ^r::reset_zoom2()
 
 
