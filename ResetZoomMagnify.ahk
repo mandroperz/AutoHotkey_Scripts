@@ -9,7 +9,7 @@ reset_zoom()
     if ( ErrorLevel == 0 )
          return
     
-    RegRead, magnification, HKEY_CURRENT_USER\SOFTWARE\Microsoft\ScreenMagnifier , Magnification
+    RegRead, magnification, HKEY_CURRENT_USER\SOFTWARE\Microsoft\ScreenMagnifier, Magnification
     
     if ( magnification == 100 )
         return
