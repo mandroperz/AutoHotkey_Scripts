@@ -14,7 +14,7 @@ reset_zoom()
     if ( magnification == 100 )
         return
         
-    RegWrite, REG_DWORD, HKEY_CURRENT_USER\SOFTWARE\Microsoft\ScreenMagnifier , Magnification, 100
+    RegWrite, REG_DWORD, HKEY_CURRENT_USER\SOFTWARE\Microsoft\ScreenMagnifier, Magnification, 100
 }
 
 ;slow
